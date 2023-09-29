@@ -2,8 +2,8 @@ import express, { json } from 'express'
 
 // import movies from './movies.json' assert { type: 'json' } Forma no oficial
 
-import { movieRouter } from './routes/movies'
-import { corsMiddleware } from './middlewares/cors'
+import { movieRouter } from './routes/movies.js'
+import { corsMiddleware } from './middlewares/cors.js'
 // import { type } from 'node:os'
 // import fs from 'node:fs'
 
